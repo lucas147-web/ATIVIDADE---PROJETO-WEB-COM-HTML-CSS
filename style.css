@@ -27,16 +27,32 @@
     float:right;
    
 }
+#h1{
+    margin-bottom: 40px;
+;
+}
+#l1{
+    margin: 40px;
+   
+    height: 30px; 
+}
+#l1 a{
+ 
+}
+#l2{
+    margin-top: 40px;
+}
+#l3{
+    margin-top: 40px;
+}
 
-
-/*classes*/
+/*-----------------------------------------classes---------------------------------------*/
 
 .formulario{
-    float: left;
     margin-top: 10px;
     margin-left: 10px;
     background-size: 100%;
-    min-height: 460px;
+    min-height: 400px;
     padding: 30px;
     display: inline-block;
     width: 90px;
@@ -49,14 +65,30 @@
     float: right;
     margin-right: 10px;
     background-size: 100%;
-    min-height: 460px;
+    min-height: 400px;
+    margin-right: 50px;
+    margin-top: 50px;
+    padding: 100px;
+    display: inline-block;
+
+    
 }
 .botao{
     margin-top: 10px;
 }
+.container{
+    background-color: darkgrey;
+    height: 100%;
+    background-size: 100%;
+}
 
-/*seletores*/
 
+/*-------------------------------------seletores--------------------------------------*/
+body{
+  
+    height: 100%;
+    width: 100%;
+}
 *{
     color: black;
     margin: 0px;
@@ -73,10 +105,11 @@ footer{
     color: black;
     font-family: monospace;
     padding: 18px;
+    margin: 0px;
 
 }
 header{
-    height: 70px;
+    height: 85px;
     background-color: #008b8b;
     clear: both;
  

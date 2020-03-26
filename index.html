@@ -6,6 +6,7 @@
         <meta charset="utf-8">
         <title>Projeto web</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://kit.fontawesome.com/80D9A609-3FF6-4114-AA12-1A30FADF88CF.js"></script>
     </head>
 
     <body>
@@ -15,14 +16,14 @@
             </div>
         </header>
 
-        <div class="corpo">
+        <div class="container">
             <h1 id="titulo">Entre em contato conosco</h1>
                 <!--Formularios-->
             <div class="formulario">
                 <form action="/action_page.html" method="POST">
                         <div id="nome">
                     <label for="name">Nome:</label>
-                        <input type="text" name="name" placeholder="@maria">
+                        <input type="text" name="name" placeholder="@maria" height="20px">
                          </div>
                             <div id="sobrenome">
                     <label for="sobrenome">Sobrenome:</label>
@@ -46,21 +47,25 @@
                             </div>
                 </form>
             </div>
-         <!--lista não ordenada-->
-         <div class="list">
-        <h1>Outros canais de atendimento.</h1>
-  
-            <ul>
-
-                <li>Whats</li>
-                <li>E-mail</li>
-                <li>mais informações</li>
-                
-
-            </ul>
-
+                            <!--usando table-->
+                        <div class="list">
+                            <table>
+                                <tr class="wh">
+                                    <td><img src="whatss.png" height="30px" alt=""></td>
+                                    <td>(88)99999-9999</td>
+                                </tr>
+                                <tr class="em">
+                                    <td> <img src="emaill.png"  height="30px"alt=""></td>
+                                    <td> callcenter@example.co</td>
+                                </tr>
+                                <tr class="im">
+                                    <td> <img src="fun.png"height="30px" alt=""></td>
+                                    <td>Segunda a sexta</td>
+                                </tr>
+                            </table>
+                        </div>
         </div>
-    </div>    
+
             <footer>Desenvolvido por Damião Lucas.</footer>
     </body>
 
