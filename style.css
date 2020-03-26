@@ -1,0 +1,37 @@
+/*ids*/
+
+#titulo{
+    text-align: center;
+}
+
+
+/*classes*/
+
+.formulario{
+    float: left;
+}
+.list{
+  
+    float: right;
+}
+
+/*seletores*/
+
+*{
+    color: black;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+footer{
+    clear: both;
+    background-color: darkcyan;
+    text-align: center;
+    height: 30px;
+ 
+    color: black;
+    font-family: monospace;
+    padding: 40px;
+
+}
