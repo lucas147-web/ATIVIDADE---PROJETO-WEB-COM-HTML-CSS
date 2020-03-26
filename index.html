@@ -9,35 +9,46 @@
     </head>
 
     <body>
-        <h1 id="titulo">Entre em contato conosco</h1>
-        <!--Formularios-->
-        <div class="formulario">
-        <form action="/action_page.html" method="POST">
+        <header>
+            <div class="img">
+                <img src="imgg.jpg" width="" height="70" />
+            </div>
+        </header>
 
-                <label for="name">Nome:</label>
-            <input type="text" name="name" placeholder="@maria">
-                    
-                    <div></div>
-                <label for="sobrenome">Sobrenome:</label>
-            <input type="text" name="sobrenome" placeholder="@Silva">
-
-                    <div></div>
-                <label for="email">E-mail:</label>    
-            <input type="email" id="email" name="email" placeholder="example@email.com">
-
-                    <div></div>
-                <label for="number">Fone:</label>
-            <input type="text" name="number" id="number" min="10" max="11" placeholder="(00)00000-0000">
-
-                    <div></div>
-                <label for="msg">Mensagem:</label>
-            <textarea id="msg"></textarea>
-        
-        </form>
-    </div>
+        <div class="corpo">
+            <h1 id="titulo">Entre em contato conosco</h1>
+                <!--Formularios-->
+            <div class="formulario">
+                <form action="/action_page.html" method="POST">
+                        <div id="nome">
+                    <label for="name">Nome:</label>
+                        <input type="text" name="name" placeholder="@maria">
+                         </div>
+                            <div id="sobrenome">
+                    <label for="sobrenome">Sobrenome:</label>
+                        <input type="text" name="sobrenome" placeholder="@Silva">
+                            </div>
+                            <div id="email">
+                    <label for="email">E-mail:</label>    
+                        <input type="email" id="email" name="email" placeholder="example@email.com">
+                            </div>
+                            <div id="number">
+                    <label for="number">Fone:</label>
+                        <input type="text" name="number" id="number" min="10" max="11" placeholder="(00)00000-0000">
+                            </div>
+                            <div id="msg">
+                    <label for="msg">Mensagem:</label>
+                        <textarea id="msg"></textarea>
+                            </div> 
+                            <div class="botao">
+                        <input type="submit" value="Enviar" id="submit">
+                        <input type="reset" value="reset" id="reset">
+                            </div>
+                </form>
+            </div>
          <!--lista não ordenada-->
          <div class="list">
-    <h1>Outros canais de atendimento.</h1>
+        <h1>Outros canais de atendimento.</h1>
   
             <ul>
 
@@ -48,7 +59,8 @@
 
             </ul>
 
-    </div>
+        </div>
+    </div>    
             <footer>Desenvolvido por Damião Lucas.</footer>
     </body>
 

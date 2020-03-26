@@ -3,16 +3,56 @@
 #titulo{
     text-align: center;
 }
+#sobrenome{
+    margin-top: 5px;
+}
+#email{
+    margin-top: 5px;
+}
+#number{
+    margin-top: 5px;
+}
+#msg{
+    margin-top: 5px;
+}
+#nome{
+    margin-top: 5px;
+}
+#submit{
+    border-radius: 2px;
+    float: left;
+}
+#reset{
+    border-radius: 1px;
+    float:right;
+   
+}
 
 
 /*classes*/
 
 .formulario{
     float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-size: 100%;
+    min-height: 460px;
+    padding: 30px;
+    display: inline-block;
+    width: 90px;
+}
+.img{
+    margin-left: 20px;
 }
 .list{
   
     float: right;
+    margin-right: 10px;
+    background-size: 100%;
+    min-height: 460px;
+}
+.botao{
+    margin-top: 10px;
 }
 
 /*seletores*/
@@ -32,6 +72,12 @@ footer{
  
     color: black;
     font-family: monospace;
-    padding: 40px;
+    padding: 18px;
 
+}
+header{
+    height: 70px;
+    background-color: #008b8b;
+    clear: both;
+ 
 }
